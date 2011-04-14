@@ -45,8 +45,9 @@ projects[start][directory_name] = "start"
 ;Devel
 projects[backup_migrate][subdir] = "contrib"
 projects[masquerade][subdir] = "contrib"
-projects[migrate][subdir] = "contrib"
-
+;projects[migrate][subdir] = "contrib"
+projects[node_convert][subdir] = "contrib"
+projects[defaultcontent][subdir] = "contrib"
 
 ;SEO
 projects[addthis][subdir] = "contrib"
@@ -94,6 +95,11 @@ projects[wysiwyg][version] = "2.0"
 ;projects[wysiwyg][type] = "module"
 ;projects[wysiwyg][download][type] = "get"
 ;projects[wysiwyg][download][url] = "http://ftp.drupal.org/files/projects/wysiwyg-7.x-2.0.tar.gz"
+projects[colorbox][subdir] = "contrib"
+projects[field_group][subdir] = "contrib"
+projects[follow][subdir] = "contrib"
+projects[link][subdir] = "contrib"
+projects[link][subdir] = "contrib"
 
 ;Libraries
 libraries[htmlpurifier][download][type] = "get"
