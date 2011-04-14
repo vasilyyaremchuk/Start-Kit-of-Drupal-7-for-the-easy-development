@@ -115,6 +115,9 @@ libraries[colorbox][download][type] = "get"
 libraries[colorbox][download][url] = "http://colorpowered.com/colorbox/latest"
 libraries[colorbox][directory_name] = "colorbox"
 
+;Localized Drupal
+projects[l10n_client][subdir] = "contrib"
+projects[l10n_update][subdir] = "contrib"
 
 ;AntiSPAM
 projects[mollom][subdir] = "contrib"
