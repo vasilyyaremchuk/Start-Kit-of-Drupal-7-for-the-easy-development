@@ -3,7 +3,9 @@
 /**
  * Implements hook_install().
  */
-function buildkit_install() {
+function start_install() {
   theme_enable(array('rubik'));
   variable_set('theme_default', 'rubik');
+  include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+  standard_install();  
 }

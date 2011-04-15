@@ -25,3 +25,9 @@ dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
+
+; ships with locale modules
+dependencies[] = locale
+dependencies[] = l10n_update
+
+files[] = start.profile
