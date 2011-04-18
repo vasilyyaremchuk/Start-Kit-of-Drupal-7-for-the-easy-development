@@ -126,6 +126,14 @@ projects[mollom][subdir] = "contrib"
 projects[sky][type] = "theme"
 projects[zen][type] = "theme"
 
+;Omega
+projects[omega_tools][subdir] = "contrib"
+projects[delta][subdir] = "contrib"
+projects[omega][type] = "theme"
+projects[beta][type] = "theme"
+projects[gamma][type] = "theme"
+
+
 ; From Buildkit profile (http://drupal.org/project/buildkit)
 
 ; Modules =====================================================================
