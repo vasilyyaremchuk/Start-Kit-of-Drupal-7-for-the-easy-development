@@ -49,6 +49,7 @@ projects[masquerade][subdir] = "contrib"
 projects[node_convert][subdir] = "contrib"
 projects[defaultcontent][subdir] = "contrib"
 projects[defaultcontent][version] = "1.0-alpha1"
+projects[coder][subdir] = "contrib"
 
 ;SEO
 projects[addthis][subdir] = "contrib"
