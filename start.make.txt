@@ -11,7 +11,7 @@ api = 2
 core = 7.x
 
 projects[drupal][type] = core
-projects[drupal][version] = "7.0"
+;projects[drupal][version] = "7.2"
 
 ; Make system directories configurable to allow tests in profiles/[name]/modules to be run.
 ; http://drupal.org/node/911354
@@ -24,6 +24,9 @@ projects[drupal][patch][903730] = http://drupal.org/files/issues/drupal.filter-a
 ; Use vocabulary machine name for permissions
 ; http://drupal.org/node/995156
 projects[drupal][patch][995156] = http://drupal.org/files/issues/995156-5_portable_taxonomy_permissions.patch
+
+; http://drupal.org/node/602938
+;projects[drupal][patch][602938] = http://drupal.org/files/issues/image_default_styles_6.patch
 
 ;projects[buildkit][type] = profile
 ;projects[buildkit][download][type] = git
@@ -84,6 +87,8 @@ projects[media_browser_plus][version] = "1.0-beta2"
 projects[media_youtube][subdir] = "contrib"
 projects[rotating_banner][subdir] = "contrib"
 projects[rotating_banner][version] = "1.x-dev"
+projects[media_gallery][subdir] = "contrib"
+projects[media_gallery][version] = "1.0-beta5"
 
 ;UI
 projects[colortheme][subdir] = "contrib"
@@ -169,4 +174,4 @@ projects[views][version] = 3.0-alpha1
 ; Themes ======================================================================
 
 projects[tao][version] = 3.0-beta3
-projects[rubik][version] = 4.0-beta4
+projects[rubik][version] = 4.0-beta5
